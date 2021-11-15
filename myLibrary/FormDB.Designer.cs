@@ -39,8 +39,10 @@ namespace myLibrary
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dbGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dbGrid.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dbGrid.Location = new System.Drawing.Point(25, 34);
             this.dbGrid.Name = "dbGrid";
+            this.dbGrid.ReadOnly = true;
             this.dbGrid.RowHeadersWidth = 51;
             this.dbGrid.RowTemplate.Height = 27;
             this.dbGrid.Size = new System.Drawing.Size(593, 331);
